@@ -1,8 +1,8 @@
 ---
 layout: lecture
 title:  Introduction to Git
-date:   2017-07-12 17:50:00
-authors: [C. Antonio Sánchez]
+date:   2020-09-05 17:50:00
+authors: [C. Antonio Sánchez, S. Ali Mousavifar]
 categories: [git, revision control]
 
 ---
@@ -10,7 +10,7 @@ categories: [git, revision control]
 # Introduction to Git
 {:.no_toc}
 
-**Authors:** C. Antonio Sánchez (UBC)
+**Authors:** C. Antonio Sánchez (UBC), S. Ali Mousavifar (UBC, Cisco Systems)
 
 {% include toc.html %}
 
@@ -131,8 +131,7 @@ readme.txt
 $ cat readme.txt
 My first git project
 ```
-
-It is very common (outside of the Visual Studio world) to put source files into a folder called `src` and to compile binary files into a separate folder called `bin`.  We are going to create these two folders, and add a couple of text files.
+Although the course is going to be based in C\# and we are gonna create a helloworld program in C\+\+ for the sake of learning git. It is very common (outside of the Visual Studio world) to put source files into a folder called `src` and to compile binary files into a separate folder called `bin`.  We are going to create these two folders, and add a couple of text files.
 ```
 $ mkdir src bin
 $ cd src
